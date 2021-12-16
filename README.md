@@ -2,6 +2,7 @@
 # Hoshi-Team
 
 Xin chào mọi người =^-^=
+
 Hoshi Budget là ứng dụng quản lý chi tiêu cá nhân, được phát triển bởi Hoshi Team gồm 4 thành viên Trần Nguyễn Diễm Hoàng, Nguyễn Thị Hoài Linh, Nguyễn Thị Như Ngọc, Trần Thị Phương Trâm.
 
 Hoshi Budget mang đến cho bạn khả năng quản lý chi tiêu cá nhân thông minh, hiệu quả và dễ dàng sử dụng. Ứng dụng cho phép bạn quản lý và phân loại các khoản chi tiêu, tạo lập và theo dõi các kế hoạch tài chính trong tương lai.
