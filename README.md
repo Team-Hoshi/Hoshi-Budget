@@ -1,4 +1,4 @@
-# Hoshi-Budget
+# Hoshi-Budget App
 # Hoshi-Team
 
 Xin chào mọi người =^-^=
@@ -14,7 +14,7 @@ Hoshi Budget mang đến cho bạn khả năng quản lý chi tiêu cá nhân t
 - Với Hoshi Budget, bạn sẽ không còn nỗi lo chi tiêu ngoài tầm kiểm soát. Dựa trên thói quen tiêu dùng của bản thân, bạn có thể tạo một ngân sách để chi tiêu trong một khoảng thời gian nhất định. Ứng dụng sẽ thường xuyên nhắc nhở về tiến độ chi tiêu của bạn, giữ cho các khoản chi luôn trong tầm kiểm soát.
 - Theo dõi và quản lý tiền bạc hiệu quả. Hoshi tự động tạo cho bạn những biểu đồ báo cáo cực kỳ dễ nhìn, dễ hiểu, dễ nhớ, cho bạn một cái nhìn rõ ràng về các khoản thu chi của bản thân. Chẳng còn hoang mang không rõ "tiền về nơi đâu" nữa!
 
-DEMO APP
+**DEMO APP**
 1. Login Screen: 
 
 
