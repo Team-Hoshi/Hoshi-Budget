@@ -11,10 +11,12 @@ Hoshi Budget mang đến cho bạn khả năng quản lý chi tiêu cá nhân t
 - Theo dõi và quản lý tiền bạc hiệu quả. Hoshi tự động tạo cho bạn những biểu đồ báo cáo cực kỳ dễ nhìn, dễ hiểu, dễ nhớ, cho bạn một cái nhìn rõ ràng về các khoản thu chi của bản thân. Chẳng còn hoang mang không rõ "tiền về nơi đâu" nữa!
 
 DEMO APP
-1. Login Screen:![262475561_342070373939327_3178917922083703917_n](https://user-images.githubusercontent.com/87653918/146520173-cd52ad45-4d8a-4a73-8bdd-7ae231ac0b79.png)
+1. Login Screen:![265740123_2702640640042516_209720840604622485_n](https://user-images.githubusercontent.com/87653918/146520278-2847cd04-2232-4015-a123-df3f19fe3871.png)
 
+2. Registration Screen:![263169799_986214312253680_3984281490483359946_n](https://user-images.githubusercontent.com/87653918/146520391-bffdbecf-4853-40e4-97e4-82d7c612840d.png)
 
-3. Registration Screen:
-4. Profile Screen:
-5. Hoshi Budget Screen:
-6. Update/Delete:
+3. Profile Screen:
+![262475561_342070373939327_3178917922083703917_n](https://user-images.githubusercontent.com/87653918/146520413-dbadb76b-3469-4f8c-91a0-61894e66efce.png)
+
+4. Hoshi Budget Screen:![263934952_431396092034002_2355692069136752836_n](https://user-images.githubusercontent.com/87653918/146520435-25550047-81fb-494d-8907-b9e0825c64d4.png)
+5. Update/Delete:![263779501_600773904368778_7031755340611625908_n](https://user-images.githubusercontent.com/87653918/146520470-0fd33c75-91a8-45c0-b272-cf93b242c841.png)
