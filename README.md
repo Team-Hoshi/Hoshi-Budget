@@ -19,22 +19,22 @@ Hoshi Budget mang đến cho bạn khả năng quản lý chi tiêu cá nhân t
 - Thêm/ sửa/ xóa thông tin chi tiêu
 - Lưu thông tin người dùng
 
-**CÔNG CỤ HỖ TRỢ**
+# CÔNG CỤ HỖ TRỢ
 - Thiết kế giao diện: Sigma
 - Quản lý source code: GitHub
 - Quản lý dự án: Trello
 - Lập trình trên: Android Studio
 
-**NHẬN XÉT**
+# NHẬN XÉT
 - Giao diện dễ sử dụng
 - Chức năng hoàn thành ở mức cơ bản
 
-**HƯỚNG PHÁT TRIỂN**
+# HƯỚNG PHÁT TRIỂN
 
 - Xây dựng chức năng thống kê
 - Xây dựng chức năng tìm kiếm khoản chi tiêu theo ngày tháng
 
-**DEMO APP**
+# DEMO APP
 **1. Login Screen: **
 
 
