@@ -1,5 +1,4 @@
-package com.example.QuanLyChiTieu;
-
+package com.midterm.chitieuhangngay_;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -50,24 +49,35 @@ public class TodayItemsAdapter extends RecyclerView.Adapter<TodayItemsAdapter.Vi
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
 
         final Data data = myDataList.get(position);
-        holder.item.setText("Item: "+data.getItem());
-        holder.amount.setText("Spent: $"+data.getAmount());
-        holder.date.setText("Today: "+data.getDate());
-        holder.notes.setText("Note: "+data.getNotes());
-
+        holder.item.setText("Nhóm: "+data.getItem());
+        holder.amount.setText("Số tiền: "+data.getAmount() + " VND");
+        holder.date.setText("Ngày: "+data.getDate());
+        holder.notes.setText("Ghi chú: "+data.getNotes());
 
         switch (data.getItem()){
-            case "Transport":
-                holder.imageView.setImageResource(R.drawable.ic_transport);
+            case "Di chuyển":
+                holder.imageView.setImageResource(R.drawable.transport);
                 break;
-            case "Food":
-                holder.imageView.setImageResource(R.drawable.ic_food);
+            case "Thức ăn":
+                holder.imageView.setImageResource(R.drawable.food);
                 break;
-            case "Entertainment":
-                holder.imageView.setImageResource(R.drawable.ic_entertainment);
+            case "Giải trí":
+                holder.imageView.setImageResource(R.drawable.entertaiment);
                 break;
-            case "Other":
-                holder.imageView.setImageResource(R.drawable.ic_other);
+            case "Gia đình":
+                holder.imageView.setImageResource(R.drawable.house);
+                break;
+            case "Học tập":
+                holder.imageView.setImageResource(R.drawable.education);
+                break;
+            case "Bạn bè, người yêu":
+                holder.imageView.setImageResource(R.drawable.friends);
+                break;
+            case "Hóa đơn":
+                holder.imageView.setImageResource(R.drawable.bill);
+                break;
+            case "Others":
+                holder.imageView.setImageResource(R.drawable.others);
                 break;
             default:
                 throw new IllegalStateException("Unexpected value: " + data.getItem());
@@ -127,11 +137,11 @@ public class TodayItemsAdapter extends RecyclerView.Adapter<TodayItemsAdapter.Vi
                 reference.child(postid).setValue(data).addOnCompleteListener(new OnCompleteListener<Void>() {
                     @Override
                     public void onComplete(@NonNull Task<Void> task) {
-                      if (task.isSuccessful()){
-                          Toast.makeText(mContext, "Updated successfully", Toast.LENGTH_SHORT).show();
-                      }else {
-                          Toast.makeText(mContext, "failed " +task.getException(), Toast.LENGTH_SHORT).show();
-                      }
+                        if (task.isSuccessful()){
+                            Toast.makeText(mContext, "Cập nhật thành công", Toast.LENGTH_SHORT).show();
+                        }else {
+                            Toast.makeText(mContext, "Cập nhật thất bại !!! " +task.getException(), Toast.LENGTH_SHORT).show();
+                        }
                     }
                 });
 
@@ -149,9 +159,9 @@ public class TodayItemsAdapter extends RecyclerView.Adapter<TodayItemsAdapter.Vi
                     @Override
                     public void onComplete(@NonNull Task<Void> task) {
                         if (task.isSuccessful()){
-                            Toast.makeText(mContext, "Deleted successfully", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(mContext, "Xóa thành công !", Toast.LENGTH_SHORT).show();
                         }else {
-                            Toast.makeText(mContext, "failed to delete " +task.getException(), Toast.LENGTH_SHORT).show();
+                            Toast.makeText(mContext, "Xóa thất bại !!! " +task.getException(), Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
@@ -182,6 +192,7 @@ public class TodayItemsAdapter extends RecyclerView.Adapter<TodayItemsAdapter.Vi
             date = itemView.findViewById(R.id.date);
             notes  = itemView.findViewById(R.id.note);
             imageView = itemView.findViewById(R.id.imageView);
+
         }
     }
 }
