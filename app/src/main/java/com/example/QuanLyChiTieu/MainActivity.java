@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-
+    //doc phan loai nhom
     private void readItems(){
 
         DateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
@@ -136,6 +136,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    // them nhom
     private void addItemSpentOn() {
 
         AlertDialog.Builder myDialog = new AlertDialog.Builder(this);

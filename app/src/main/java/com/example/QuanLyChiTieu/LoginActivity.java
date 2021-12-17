@@ -102,6 +102,7 @@ public class LoginActivity extends AppCompatActivity {
         startLoader();
     }
 
+     //ex
     //google authenticating the account.
 
     @Override
