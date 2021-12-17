@@ -11,7 +11,10 @@ Hoshi Budget mang đến cho bạn khả năng quản lý chi tiêu cá nhân t
 - Theo dõi và quản lý tiền bạc hiệu quả. Hoshi tự động tạo cho bạn những biểu đồ báo cáo cực kỳ dễ nhìn, dễ hiểu, dễ nhớ, cho bạn một cái nhìn rõ ràng về các khoản thu chi của bản thân. Chẳng còn hoang mang không rõ "tiền về nơi đâu" nữa!
 
 DEMO APP
-1. Login Screen:![265740123_2702640640042516_209720840604622485_n](https://user-images.githubusercontent.com/87653918/146520278-2847cd04-2232-4015-a123-df3f19fe3871.png)
+1. Login Screen:
+2. 
+3. 
+4. ![265740123_2702640640042516_209720840604622485_n](https://user-images.githubusercontent.com/87653918/146520278-2847cd04-2232-4015-a123-df3f19fe3871.png)
 
 2. Registration Screen:![263169799_986214312253680_3984281490483359946_n](https://user-images.githubusercontent.com/87653918/146520391-bffdbecf-4853-40e4-97e4-82d7c612840d.png)
 
